@@ -19,23 +19,18 @@
   /* pointer-events: none; */
 }
 
-#vidtop-content {
-  top: 0;
-  color: #fff;
-}
-
 .vid-info {
-  position: absolute;
   bottom: 0;
-  right: 0;
-  left: 0;
-  color: #fff;
-  padding: 1rem;
+  color: #bd1f1d;
   font-family: 'Diplomata SC', sans-serif;
+  font-size: 1.5em;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
 }
 
 .vid-info h1 {
-  font-size: 2rem;
   font-weight: 700;
   margin-top: 0;
   line-height: 1.2;
@@ -43,7 +38,7 @@
 
 .vid-info a {
   display: block;
-  color: #fff;
+  color: #bd151d;
   text-decoration: none;
   -webkit-transition: .6s background;
   transition: .6s background;
@@ -66,5 +61,11 @@
   .video-foreground {
     width: 300%;
     left: -100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .vid-info {
+    font-size: 1em;
   }
 }
